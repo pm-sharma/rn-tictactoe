@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-750991248/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/-750991248/react-native-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-750991248/react-native-gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-750991248/react-native-gradle-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-750991248/react-native-gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-750991248/react-native-gradle-plugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rntictactoe.iml" filepath="$PROJECT_DIR$/.idea/modules/rntictactoe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rntictactoe.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
