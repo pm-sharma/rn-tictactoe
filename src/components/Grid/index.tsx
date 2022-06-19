@@ -1,5 +1,6 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, TouchableOpacity } from "react-native";
+import colors from '../../utils/colors'
 
 const Grid = ({onClick, value}: any) => {
   
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
     square: {
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: 'red',
+      backgroundColor: colors.primary,
       margin: 10,
       width: 100,
       height: 100,
@@ -24,6 +25,7 @@ const styles = StyleSheet.create({
     char: {
       fontSize: 75,
       fontWeight: '700',
+      color: colors.darkGrey
     },
 });
 

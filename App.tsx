@@ -3,13 +3,13 @@ import {
   SafeAreaView,
   ScrollView
 } from "react-native";
-import PlayGame from "./src/components/Play/PlayGame";
+import Play from "./src/components/Play";
 
 const App = () => {
   return (
     <SafeAreaView>
       <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <PlayGame />
+        <Play />
       </ScrollView>
     </SafeAreaView>
   );
