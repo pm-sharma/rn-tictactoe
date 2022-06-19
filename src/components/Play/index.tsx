@@ -7,6 +7,7 @@ const Play = () => {
     const [stepNumber, setStepNumber] = useState<number>(0)
     const [xIsNext, setXIsNext] = useState<boolean>(true)
     const calculateWinner = (squares: any) => {
+
       const lines = [
           [0, 1, 2],
           [3, 4, 5],
@@ -41,11 +42,7 @@ const Play = () => {
     }
 
     const newGame = () => {
-      setHistoryVal([
-          {
-            squares: Array(9).fill(null),
-          },
-        ])
+      setHistoryVal([{squares: Array(9).fill(null)}])
       setStepNumber(0)
       setXIsNext(true)
     }
@@ -68,12 +65,11 @@ const Play = () => {
             <View style={{}}>
               <AllSquares
                 squares={historyVal[stepNumber].squares}
-                onClick={(i: any) => handleClick(i)}
+                onClick={(i: number) => handleClick(i)}
               />
             </View>
-            <View style={styles.gameInfo}>
+            <View>
               <TouchableOpacity
-                style={styles.newGame}
                 onPress={() => {
                   newGame();
                 }}>
@@ -87,14 +83,17 @@ const Play = () => {
 
 const styles = StyleSheet.create({
     status: {
+      textAlign: "center",
+      fontWeight: "700",
     },
     game: {
-    },
-    gameInfo: {
-    },
-    newGame: {
+      margin: 10
     },
     newText: {
+      textAlign: "right",
+      fontWeight: "700",
+      marginTop: 10,
+      marginRight: 10
     },
 })
 

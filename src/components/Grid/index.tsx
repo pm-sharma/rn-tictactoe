@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       backgroundColor: colors.primary,
       margin: 10,
-      width: 100,
-      height: 100,
+      width: 110,
+      height: 110,
     },
     char: {
       fontSize: 75,

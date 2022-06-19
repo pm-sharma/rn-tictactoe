@@ -15,7 +15,7 @@ const AllSquares = ({squares, onClick}: any) => {
       <View style={styles.board}>
         {arrLength.map((val, ind)=>{
           return(
-            <View style={styles.boardRow}>
+            <View key={ind}>
               {renderGrid(ind)}
             </View>
           )
@@ -29,12 +29,9 @@ const AllSquares = ({squares, onClick}: any) => {
     board: {
       display: 'flex',
       flexWrap: 'wrap',
-
-    },
-    boardRow: {     
-      height : 100,
-      width: 100
-    },
+      flexDirection: 'row',
+      flex: 1
+    }
 });
 
 export default AllSquares;
